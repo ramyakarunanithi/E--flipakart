@@ -1,0 +1,204 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(214, 212, 212);
+}
+.navbar{
+    height:60px;
+    width:100vw;
+    background-color: rgb(171, 171, 243);
+    display: flex;
+    gap:180px;
+    z-index: 656;
+    position: fixed;
+ }
+ input{
+    width:500px;
+    padding:10px;
+    margin:10px;
+ }
+ img{
+    height:50px;
+    margin:10px 10px;
+    position: relative;
+    left:180px;
+ }
+ button{
+    color:blue;
+    padding:10px 50px;
+    margin:10px;
+    align-items: center;
+ }
+ .whitebox{
+    width:100vw;
+    /* background-color: white; */
+   
+ }
+ .whitebox ul{
+    width:100vw;
+    background-color: white;
+    height:60px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:70px;
+ }
+ .whitebox li{
+    list-style: none;
+    padding:15px;
+ }
+ /* h3{
+    position: relative;top:100px
+ } */
+ /* .stock img{
+    position: relative;
+    top:200px;
+ } */
+ .para{
+   height:800px;
+   width:100vw;
+   background-color: white;
+ }
+ .para1 h4,.para2 h4,.para3 h4{
+   color:gray;
+   font-size:20px;
+   opacity: 0.8;
+   padding:10px 10px;
+ }
+ .para1 p,.para2 p,.para3 p{
+   color:gray;
+   text-align: justify;
+   padding:0px 10px;
+ }
+ .para1{
+   position:absolute;
+   top:120px
+ }
+ .para2{
+  position: absolute;
+  top:270px;
+ }
+ .para3{
+   position: absolute;
+   bottom:150px;
+ }
+ .blackbox{
+    width:100vw;
+    height:50vh;
+    background-color: black;
+}
+.black{
+    margin-top: 30px;
+    color:white;
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+}
+.about{
+    color:grey;
+    padding: 10px;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:blue;
+}
+.social{
+    color:white;
+   font-size:20px;
+   position: relative;
+   left:46%;
+}
+.social p{
+    position: relative;
+    align-items: center;
+}
+i{
+    font-size:30px;
+}
+li{
+    list-style: none;
+}
+.about ul{
+   margin: 30px;
+}
+@media(min-width:574px) and (max-width:1199px){
+  .whitebox li{
+   padding:0px;
+   font-size:14px;
+  }
+  .whitebox ul{
+   padding:0px;
+  }
+  .para2{
+   position: relative;
+   top:340px;
+}
+.para3{
+   position: relative;
+   top:360px;
+}
+img{
+    height:50px;
+    margin:8px;
+    position: relative;
+    left:0px;
+ }
+  input{
+    width:300px;
+    padding:20px;
+    margin:10px;
+    position: relative;
+    right:170px;
+ }
+ .navbar button{
+   position: relative;
+   right:300px;
+ }
+}
+@media(max-width:575px){
+   .whitebox li{
+   padding:0px;
+   font-size:10px;
+   opacity:0;
+  }
+  .whitebox ul{
+   padding:0px;
+  }
+  .para1{
+   position:;
+  }
+  .para2{
+   position: relative;
+   top:340px;
+   opacity: 0;
+}
+.para3{
+   position: relative;
+   top:360px;
+   opacity:0;
+}
+img{
+    height:30px;
+    margin:15px;
+    position: relative;
+    left:0px;
+ }
+  input{
+    padding:20px;
+    margin:10px;
+    position: relative;
+    right:180px;
+ }
+  .navbar button{
+   position: relative;
+   right:350px;
+   width:60px;
+   padding:10px;
+ }
+}
+
+ 

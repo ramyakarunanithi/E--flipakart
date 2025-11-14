@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.overall{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(196, 196, 196);
+}
+ .navbar{
+    height:60px;
+    width:100vw;
+    background-color: rgb(171, 171, 243);
+    display: flex;
+    gap:180px
+ }
+ input{
+    width:500px;
+    padding:10px;
+    margin:10px;
+ }
+ img{
+    height:50px;
+    margin:10px 10px;
+    position: relative;
+    left:180px;
+ }
+ button{
+    color:blue;
+    padding:10px 50px;
+    margin:10px;
+    align-items: center;
+ }
+ .white{
+    margin:20px 40px;
+    height:500px;
+    background-color: white;
+    
+ }
+ .white img{
+      height:200px;
+      width:300px;
+      margin: auto;
+      position: relative;left:570px;
+      top:10px;
+ }
+ h2{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+ }
+ p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+ } 
+ .last button{
+      background-color: orangered;
+      border: 0px;
+      position: relative;
+      left:630px;
+      padding:10px 70px;
+      color:black;
+      cursor: pointer;
+ }
+ .para{
+    display: flex;
+    justify-content: space-around;
+ }
+ @media(min-width:574px) and (max-width:1199px){
+    .navbar{
+    background-color: rgb(171, 171, 243);
+    display: flex;
+    gap:0px;
+    width:100vw;
+    }
+    .navbar img{
+        position: relative;
+        left:0px;
+    }
+    .navbar button{
+        width:60px;   
+    }
+    .white img{
+        position:relative;
+        left:200px
+    }
+    .last button{
+        position: relative;
+        left:250px;
+    }
+ }
+ @media(max-width:575px){
+    .navabar{
+        display: flex;
+        gap:0px;
+        width:100vw;
+        height:0px;
+    }
+    .navbar img{
+        height:30px;
+        width:140px;
+        position:relative;
+        left:0px;  
+    }
+    input{
+       height:30px;
+       width:200px;
+       position:absolute;
+       left:140px;
+    }
+    .navbar button{
+        width:70px;
+        height:30px;
+        position: relative;
+        left:10px;
+        padding:0px 0px;
+    }
+    .white img{
+        position:relative;
+        left:60px
+    }
+    .last button{
+        position: relative;
+        left:100px;
+    }
+
+ }
